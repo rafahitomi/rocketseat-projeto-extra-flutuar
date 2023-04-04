@@ -1,4 +1,4 @@
-# Projeto 2 - Flutuar
+# Projeto Extra - Flutuar
 
 Projeto para recriar uma aplicação do Stage 02 do curso Explorer.
 
