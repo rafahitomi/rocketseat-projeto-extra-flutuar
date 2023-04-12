@@ -1,26 +1,43 @@
+:root {
+  font-size: 62.5%;
+}
+
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
+}
+
+body {
   font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 1.5rem;
+  line-height: 2.2rem;
+
   text-align: center;
+  height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .imagem__cabecalho {
-  margin: 64px auto 32px;
+  margin: 6.4rem auto 3.2rem;
 }
 
 .conteudo__principal {
-  width: 540px;
-  margin: auto;
+  width: 54.0rem;
+  margin: 0 auto;
 }
 
 .titulo__principal {
   font-family: 'Dosis', sans-serif;
   font-weight: 500;
-  font-size: 32px;
-  line-height: 40px;
+  font-size: 3.2rem;
+  line-height: 4.0rem;
   color: #3F3D56;
-  margin-bottom: 16px;
+  margin-bottom: 1.6rem;
 }
 
 .titulo__principal span {
@@ -28,51 +45,81 @@
   color: #EE24FF;
 }
 
-.conteudo__principal p {
-  color: #828282;
-}
-
 .primeiro__texto {
-  font-weight: 400;
-  font-size: 15px;
-  line-height: 22px;
-  margin-bottom: 32px
+  color: #828282;
+  margin-bottom: 3.2rem;
 }
 
-.texto__destaque {
+.primeiro__texto span {
+  font-weight: 700;
   color: #3F3D56;
 }
 
 .segundo__texto {
-  font-weight: 400;
-  font-size: 15px;
-  line-height: 20px;
-  margin-bottom: 64px;
+  line-height: 2.0rem;
+  color: #828282;
+  margin-bottom: 6.4rem;
 }
 
 .rodape {
-  margin-bottom: 40px;
+  margin-bottom: 4.0rem;
+}
+
+.linha {
+  width: 39.1rem;
+  height: 0;
+  border: 1px solid #ECEFF2;
+  margin: 0 auto 1.6rem;
 }
 
 .rodape a {
   font-weight: 700;
-  font-size: 15px;
   line-height: 147.68%;
   color: #3F3D56;
   text-decoration: none;
 }
 
 .rodape a + a {
-  margin-left: 42px;
-}
-
-.linha {
-  width: 391px;
-  height: 0;
-  border: 1px solid #ECEFF2;
-  margin: 0 auto 16px;
+  margin-left: 4.2rem;
 }
 
 .imagem__rodape {
   width: 100%;
+}
+
+
+/* RESPONSIVIDADE */
+@media (max-width: 600px) {
+  .imagem__cabecalho {
+    margin-top: 5.4rem;
+  }
+
+  .conteudo__principal {
+    width: 48.0rem;
+  }
+}
+
+@media (max-width: 500px) {
+  .imagem__cabecalho {
+    width: 70%;
+  }
+
+  .conteudo__principal {
+    width: 30.0rem;
+  }
+
+  .titulo__principal {
+    font-size: 3.0rem;
+  }
+
+  .primeiro__texto, .segundo__texto, a {
+    font-size: 1.3rem;
+  }
+
+  .linha {
+    width: 27.0rem;
+    height: 0;
+    border: 1px solid #ECEFF2;
+    margin: 0 auto 1.6rem;
+  }
 }
