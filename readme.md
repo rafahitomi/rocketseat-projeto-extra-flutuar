@@ -1,8 +1,6 @@
 # Projeto Extra 1 - Flutuar
 
-Projeto para recriar uma aplicação do Stage 02 do curso Explorer.
-
-O projeto foi disponibilizado pela Rocketseat no Figma.
+Projeto para recriar uma aplicação do Stage 02 do curso Explorer. O projeto foi disponibilizado pela Rocketseat no Figma.
 
 Alguns conceitos aprendidos durante a aula:
 - Estruturando um projeto HTML;
@@ -23,3 +21,9 @@ Alguns conceitos aprendidos durante a aula:
 
 * HTML
 * CSS
+
+---
+
+## 📌 Link
+
+[Flutuar](https://rocketseat-projeto-extra1-flutuar.vercel.app/) - Verifique no dispositivo móvel e desktop.
